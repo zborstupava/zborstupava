@@ -1,9 +1,32 @@
 /* Domov */
 
-@media only screen and (max-width: 600px) {
+#domovForPC {
+    width: 100%;
+}
+
+@media only screen and (max-width: 500px) {
 
     #domovForPC {
         display: none;
+    }
+
+}
+
+#domovForMOBILE {
+    width: 100%;
+    display: none;
+    text-align: center;
+}
+
+#domovForMOBILE img {
+    width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 500px) {
+
+    #domovForMOBILE {
+        display: block;
     }
 
 }
