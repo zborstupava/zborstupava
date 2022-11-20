@@ -55,6 +55,7 @@ nav {
 #toggleMobileMenu {
     text-align: right;
     margin-left: 0;
+    position: sticky;
 }
 
 /* Domov */
