@@ -53,9 +53,13 @@ nav {
 }
 
 #toggleMobileMenu {
+    background-color: white;
     text-align: right;
     margin-left: 0;
-    position: sticky;
+    position: absolute;
+    top: -10px;
+    right: 60px;
+    padding: 45px 10px 0 10px;
 }
 
 /* Domov */
