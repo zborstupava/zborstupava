@@ -2,7 +2,7 @@
 html {
     text-align: center;
     overflow-x: hidden;
-    padding: 10px;
+    padding: 0;
 }
 
 .container-fluid {
@@ -14,9 +14,13 @@ header {
 }
 
 #shadow {
-    width: 1548px;
+    margin: 0;
     height: 30px;
     background-image: linear-gradient(gray, white);
+}
+
+#main-content {
+
 }
 
 /* Navigation */
@@ -53,7 +57,7 @@ nav {
 }
 
 #toggleMobileMenu {
-    background-color: white;
+    background: rgba(252, 252, 252, 0.7);
     text-align: right;
     margin-left: 0;
     position: absolute;
@@ -72,4 +76,8 @@ nav {
     color: #189ab4;
     font-size: 30px;
     font-weight: 600;
+}
+
+#domovForMOBILE .textInDomov {
+    margin: 10px;
 }
